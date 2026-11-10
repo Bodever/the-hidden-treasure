@@ -1,0 +1,6 @@
+{
+  "name": "The Hidden Treasure - Historical Interactive Story",
+  "description": "A cinematic Abbasid-era interactive adventure following Yusuf, Harith, and Qasim. Prepared by Abdullah Ali Khairallah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #110b06;
+    color: #f5ebd7;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom historical font classes */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Antique scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140c06;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a3c22;
+  border-radius: 4px;
+  border: 1px solid #7c5531;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c6439;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 12s linear infinite;
+}
